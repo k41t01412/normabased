@@ -1,31 +1,50 @@
+body {
+    font-family: 'cartoon', Arial, sans-serif;
+    background: linear-gradient(to bottom, rgba(0, 86, 249, 1), rgba(0, 86, 249, 1));
+  }
 .container {
     max-width: 800px;
     margin: 50px auto;
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+  }
+  h1 {
     text-align: center;
-    color: #333;
-}
-
-.tokenomics-list {
+    color: #0056f9;
+  }
+  .tokenomics-list {
+    text-align: center;
     margin-top: 20px;
-}
-
-.tokenomics-item {
-    margin-bottom: 15px;
-}
-
-.tokenomics-item h2 {
+  }
+  .tokenomics-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 100px;
+    background-color: #0056f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+  }
+  .box .boxtext {
+    color: white;
+  }
+  .tokenomics-item h2 {
     margin-top: 0;
-    color: #555;
-}
-
-.tokenomics-item p {
-    margin-top: 5px;
-    color: #777;
-}
+    color: #0056f9;
+  }
+  .tokenomics-item p {
+    margin-top: 10px;
+    color: #0056f9;
+  }
